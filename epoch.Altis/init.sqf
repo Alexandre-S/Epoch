@@ -7,6 +7,8 @@ if (isServer) then {
 	hint parseText format["%1", _this select 1];
 };
 
+[] execVM "addons\brief\Briefing.sqf";
+
 call compile preProcessFileLineNumbers "addons\cmEarplugs\config.sqf";
 
 if(hasInterface) then{

@@ -20,7 +20,7 @@ _credits =
 ["Welcome to",["Epoch Vault"]],
 ["Admins",["Youri Litovski","Benji","le serpent mexicain","Sentinel"]],
 ["Server Mod",["Ethan Hawx","Emilio Coleman"]],
-["Server antihack",["Stock Epoch AH"]],
+["Rules",["No base camping","No bambi kill","No kill in trader city","No troll","No cheat","(open your map for full rules)"]],
 ["Server scripts",["Status Bar","SEM","Dayz Style Heli Crash","Ear Plug","High Vehicles Spawn","Much more"]],
 ["Email",["oshydaka@gmail.com"]],
 ["Special thanks",["Epoch Team"]]
