@@ -28,7 +28,7 @@ class Mission
 	randomSeed=12032465;
 	class Intel
 	{
-		briefingName="Epoch Mod";
+		briefingName="Epoch Vault";
 		resistanceWest=0;
 		timeOfChanges=28800;
 		startWeather=0;
@@ -40,9 +40,9 @@ class Mission
 		windForced=1;
 		year=2035;
 		month=6;
-		day=24;
-		hour=12;
-		minute=55;
+		day=20;
+		hour=7;
+		minute=0;
 		startFogDecay=0.013;
 		forecastFogDecay=0.013;
 	};
@@ -2096,8 +2096,8 @@ class Intro
 		forecastLightnings=0.1;
 		year=2035;
 		month=6;
-		day=24;
-		hour=12;
+		day=20;
+		hour=7;
 		minute=0;
 		startFogDecay=0.013;
 		forecastFogDecay=0.013;
@@ -2126,8 +2126,8 @@ class OutroWin
 		forecastLightnings=0.1;
 		year=2035;
 		month=6;
-		day=24;
-		hour=12;
+		day=20;
+		hour=7;
 		minute=0;
 		startFogDecay=0.013;
 		forecastFogDecay=0.013;
@@ -2156,8 +2156,8 @@ class OutroLoose
 		forecastLightnings=0.1;
 		year=2035;
 		month=6;
-		day=24;
-		hour=12;
+		day=20;
+		hour=7;
 		minute=0;
 		startFogDecay=0.013;
 		forecastFogDecay=0.013;
