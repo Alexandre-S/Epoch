@@ -111,3 +111,7 @@ class CfgEpochCloak
 	teleportChance = 66; //Chance for cloak to teleport. (Min: 1)
 	hoverFrequency = 1280; //Cloak has new hover attack. When player is above cloak, and at a distance, cloak will float to player and teleport attack. Only perform one of these moves per this period. (Min: 240)
 };
+class RscTitles
+{
+	#include "addons\Status_Bar\statusBar.hpp"
+};
