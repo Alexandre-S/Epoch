@@ -25,7 +25,7 @@ _credits =
 ["Email",["oshydaka@gmail.com"]],
 ["Special thanks",["Epoch Team"]]
 ];
-_titleColor = "#57877b"; // Color of credit title in HTML format. Link: http://html-color-codes.info/
+_titleColor = "#01DF01"; // Color of credit title in HTML format. Link: http://html-color-codes.info/
 _subColor = "#FFF"; // Same as above
 //////////////////////////////////////
 ///  Do not change anything below  ///
