@@ -14,4 +14,7 @@ if(hasInterface) then{
 	
 	//Status Bar
 	[] execVM "addons\Status_Bar\init_statusBar.sqf"
+	
+	//SEM
+	execVM "addons\SEM\semClient.sqf"
 };
