@@ -7,6 +7,8 @@ if (isServer) then {
 	hint parseText format["%1", _this select 1];
 };
 
+call compile preProcessFileLineNumbers "addons\cmEarplugs\config.sqf";
+
 if(hasInterface) then{
 	///////  Server Intro Credits by IT07  ///////
 	///  v1.4.1.  ////////////////////////////////
