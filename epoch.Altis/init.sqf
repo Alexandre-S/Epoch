@@ -9,6 +9,10 @@ if (isServer) then {
 
 [] execVM "addons\brief\Briefing.sqf";
 
+//[] execVM "addons\module_chatIntercept\init.sqf";
+
+[] execVM "addons\halv_spawn\init.sqf";
+
 call compile preProcessFileLineNumbers "addons\cmEarplugs\config.sqf";
 
 if(hasInterface) then{
@@ -23,3 +27,5 @@ if(hasInterface) then{
 	//SEM
 	execVM "addons\SEM\semClient.sqf"
 };
+
+[] execVM "addons\messages\init.sqf";
