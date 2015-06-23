@@ -2,6 +2,10 @@ if (isServer) then {
     execVM "\q\addons\traderATMs\init.sqf";
 };
 
+//Supply Drop Alert Event
+"SDROP_Alert" addPublicVariableEventHandler {
+	hint parseText format["%1", _this select 1];
+};
 
 if(hasInterface) then{
 	///////  Server Intro Credits by IT07  ///////
