@@ -18,8 +18,8 @@ _waitFor = 2; // Amount of seconds to wait before playing can see and move ingam
 _credits =
 [
 ["Welcome to",["Epoch Vault"]],
-["Admins",["Youri Litovski"]],
-["Server Mod",["Benjamin Durant","Gaetan Tomat"]],
+["Admins",["Youri Litovski","Benji","le serpent mexicain","Sentinel"]],
+["Server Mod",["Ethan Hawx","Emilio Coleman"]],
 ["Server antihack",["Stock Epoch AH"]],
 ["Server scripts",["Status Bar","SEM","Dayz Style Heli Crash","Custom Loadout","Much more"]],
 ["Email",["oshydaka@gmail.com"]],
