@@ -21,7 +21,7 @@ _credits =
 ["Admins",["Youri Litovski","Benji","le serpent mexicain","Sentinel"]],
 ["Server Mod",["Ethan Hawx","Emilio Coleman"]],
 ["Server antihack",["Stock Epoch AH"]],
-["Server scripts",["Status Bar","SEM","Dayz Style Heli Crash","Custom Loadout","Much more"]],
+["Server scripts",["Status Bar","SEM","Dayz Style Heli Crash","Ear Plug","High Vehicles Spawn","Much more"]],
 ["Email",["oshydaka@gmail.com"]],
 ["Special thanks",["Epoch Team"]]
 ];
