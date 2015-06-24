@@ -1,1 +1,1 @@
-5 "" !=(Offer|Accept|BUILD_SLOT|TRADE_ACTIVE|last_targeter) !="bis_fnc_objectvar_var" !="added_EHProtect" !="GotIn" !="LocalChanged" 
+5 "" !=(Offer|Accept|BUILD_SLOT|TRADE_ACTIVE|last_targeter) !="bis_fnc_objectvar_var" !="added_EHProtect" !="GotIn" !="LocalChanged" !"slx_xeh_playable"
