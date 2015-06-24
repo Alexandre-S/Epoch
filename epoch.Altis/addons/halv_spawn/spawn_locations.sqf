@@ -13,7 +13,7 @@ _spawnNearJammer = true;
 _jamarea = 10000;
 
 //This will allow spawn near group leader, but group system in epoch is bugged
-_spawnNearGroup = true;
+_spawnNearGroup = false;
 
 //adds the default spawns locations
 _adddefaultspawns = true;
@@ -32,26 +32,26 @@ Halv_spawns = switch(toLower worldName)do{
 			[20548.4,8888.25]
 		],	//minimal array for 'Panagia', name is found by the script and no donor / lvl requirements to spawn here
 */
-			[[20548.4,8888.25],2],	// 'Panagia'" //donor
+			[[20548.4,8888.25]],	// 'Panagia'" //donor
 			[[20788.2,6733.91]],	// 'Selakano'
-			[[20241.1,11659.6],1],	// 'Chalkeia' //reg
+			[[20241.1,11659.6]],	// 'Chalkeia' //reg
 			[[16786.2,12619.4]],	// 'Pyrgos'
 			[[18111.2,15242.3]],	// 'Charkia'
 			[[21358.5,16361],2],	// 'Kalochori'" //donor
 			[[23211.4,19957.7]],	// 'Ioannina'
-			[[25696.9,21348.6],2],	// 'Sofia' //donor
+			[[25696.9,21348.6]],	// 'Sofia' //donor
 			[[26990.8,23202.2]],	// 'Molos'
-			[[16278.7,17267.4],1],	// 'Telos' //reg
+			[[16278.7,17267.4]],	// 'Telos' //reg
 			[[14039.2,18730.9]],	// 'Athira'
 			[[14602.8,20791.3]],	// 'Frini'
 			[[9436.79,20304.4]],	// 'Abdera'
-			[[4559.19,21406.7],2],	// 'Oreokastro' //donor
+			[[4559.19,21406.7]],	// 'Oreokastro' //donor
 			[[4040.33,17281.3]],	// 'Agios Konstantinos'
-			[[9275.09,15899.8],1],	// 'Agios Dionysios' //reg
+			[[9275.09,15899.8]],	// 'Agios Dionysios' //reg
 			[[12477.4,14316.7]],	// 'Neochori'
 			[[3529.11,13054.8]],	// 'Kavala'
 			[[9045.54,11960.8]],	// 'Zaros'
-			[[9259.52,8062.07],1]	//'Sfaka' //reg
+			[[9259.52,8062.07]]	//'Sfaka' //reg
 
 		]
 	};

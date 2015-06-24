@@ -63,6 +63,6 @@ _creditsFnc =
 waitUntil { !isNull(findDisplay 46); (speed player) != 0 };
 
 _playCredits = [_onScreenTime, _waitFor, _credits, _titleColor, _subColor] spawn _creditsFnc;
-_skip = player addAction ["Skip credits...",{terminate (_this select 3); player removeAction (_this select 2)}, _playCredits, -1, false, true];
+//_skip = player addAction ["Skip credits...",{terminate (_this select 3); player removeAction (_this select 2)}, _playCredits, -1, false, true];
 waitUntil { uiSleep 0.5; scriptDone _playCredits };
-player removeAction _skip;
+//player removeAction _skip;

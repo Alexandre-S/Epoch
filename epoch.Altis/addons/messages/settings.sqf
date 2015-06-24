@@ -15,7 +15,7 @@ _HALV_KillFeedtitleText		= false;
 _HALV_KillFeedcutText		= false;
 _HALV_KillFeedhint			= false;
 _HALV_KillFeedhintSilent	= false;
-_HALV_KillFeeddynamictext	= true;
+_HALV_KillFeeddynamictext	= false;
 //this is to allow killfeed for players killed by anything that is not a player (sometimes a player is apparently not a player, so i leave this as an option for now)
 _HALV_KillFeed_AI			= true;
 //=======================================
