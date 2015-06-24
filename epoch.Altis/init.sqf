@@ -13,6 +13,9 @@ if (isServer) then {
 
 [] execVM "addons\halv_spawn\init.sqf";
 
+
+execVM "addons\protectChopper\OX3_GetInProtect.sqf";
+
 call compile preProcessFileLineNumbers "addons\cmEarplugs\config.sqf";
 
 if(hasInterface) then{
