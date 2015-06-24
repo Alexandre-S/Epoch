@@ -31,29 +31,32 @@ fn_handleGetIn = {
 	_vehicle = _this select 0;
 	_seat = _this select 1;
 	
-	if(_seat == "driver")then{
+	//if(_seat == "driver")then{
+	if(count (crew _vehicle) < 1)then{
 		_vehicle setVariable ["GotIn",true];
 		_vehicle allowDamage false;
-		diag_log "[OX3] - Vehicle getin handled";
+		//diag_log "[OX3] - Vehicle getin handled";
 	};
 };
 
 fn_handleLocal = {
-	private ["_vehicle","_local"];
+	private ["_vehicle"];
 	
 	_vehicle = _this select 0;
-	_local = _this select 1;
-	_vehicle setVariable ["LocalChanged",true];
-	_vehicle allowDamage false;
-	diag_log "[OX3] - Vehicle local handled";
-	
+	//_local = _this select 1;
+	//_vehicle setVariable ["LocalChanged",true];
+	//_vehicle allowDamage false;
+	if(_this select 1)then{
+		_vehicle setVariable ["LocalChanged",true];
+		_vehicle allowDamage false;
+		//diag_log "[OX3] - Vehicle local handled";
+	};
 };
 
 diag_log "[OX3] - Vehicle get in pilot protection";
 while {true} do 
 {
-	
-	{	
+	{
 		if (!(_x getVariable ["added_EHProtect",false])) then {
 			_x addEventHandler ["GetIn", {_this call fn_handleGetIn;}];
 			_x addEventHandler ["Local", {_this call fn_handleLocal;}];
@@ -72,6 +75,5 @@ while {true} do
 			_x setVariable ["LocalChanged",false];
 		};
 	}forEach vehicles;
-	
 	uiSleep 5;
 };  
