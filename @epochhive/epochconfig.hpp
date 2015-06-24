@@ -1,4 +1,4 @@
-serverRestart         = false; // true sends #shutdown command to server after the time specified in ForceRestartTime
+serverRestart         = true; // true sends #shutdown command to server after the time specified in ForceRestartTime
 forceRestartTime      = 14400; // 4 hour restarts
 
 StorageSlotsLimit = 1500; // Max storage slots allowed. Warning! Higher the number lower performance.
