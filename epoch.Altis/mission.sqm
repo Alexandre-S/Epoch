@@ -22,7 +22,7 @@ class Mission
 	};
 	addOnsAuto[]=
 	{
-		"A3_epoch_config",
+		"a3_epoch_config",
 		"a3_map_altis"
 	};
 	randomSeed=12032465;
@@ -41,7 +41,6 @@ class Mission
 		year=2035;
 		month=6;
 		day=20;
-		hour=7;
 		minute=0;
 		startFogDecay=0.013;
 		forecastFogDecay=0.013;
@@ -2052,7 +2051,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=3;
+		items=10;
 		class Item0
 		{
 			position[]={14939.934,0.053499073,15083.272};
@@ -2070,6 +2069,62 @@ class Mission
 			position[]={23600.611,3.1900001,18000.768};
 			name="respawn_west";
 			type="Empty";
+		};
+		class Item3
+		{
+			position[]={3320.5916,-0.0001469478,28134.729};
+			name="legende";
+			text="Légende";
+			type="mil_flag";
+			colorName="ColorEAST";
+		};
+		class Item4
+		{
+			position[]={3306.1785,0.0016496319,27747.424};
+			name="pointOrange";
+			text="Container, Trésor sous-marin, Fête foraine | Cargo container, Ferris wheel or Wrecks";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item5
+		{
+			position[]={3306.1785,-0.003907626,27947.424};
+			name="triangleVert";
+			text="Plante, Citrouille, Consommable | Food, hemp or harvestable plant.";
+			type="mil_triangle";
+			colorName="ColorGreen";
+		};
+		class Item6
+		{
+			position[]={3306.1785,0.0027613991,27547.424};
+			name="pointMarron";
+			text="Marchand | Trader";
+			type="mil_dot";
+			colorName="ColorBrown";
+		};
+		class Item7
+		{
+			position[]={3306.1785,-3.7448946e-005,27347.424};
+			name="pointNoir";
+			text="Marchand safe | Safe Traders";
+			type="mil_dot";
+			colorName="ColorBlack";
+		};
+		class Item8
+		{
+			position[]={3306.1785,-185.97,27147.424};
+			name="marchandRespawn";
+			text="Marchand qui a respawn | Respawned Trader";
+			type="mil_dot";
+			colorName="ColorKhaki";
+		};
+		class Item9
+		{
+			position[]={3306.1785,-185.97,26948.424};
+			name="pointRouge";
+			text="Marchand Mort | Dead Trader";
+			type="mil_dot";
+			colorName="ColorRed";
 		};
 	};
 };
@@ -2097,7 +2152,6 @@ class Intro
 		year=2035;
 		month=6;
 		day=20;
-		hour=7;
 		minute=0;
 		startFogDecay=0.013;
 		forecastFogDecay=0.013;
@@ -2127,7 +2181,6 @@ class OutroWin
 		year=2035;
 		month=6;
 		day=20;
-		hour=7;
 		minute=0;
 		startFogDecay=0.013;
 		forecastFogDecay=0.013;
@@ -2157,7 +2210,6 @@ class OutroLoose
 		year=2035;
 		month=6;
 		day=20;
-		hour=7;
 		minute=0;
 		startFogDecay=0.013;
 		forecastFogDecay=0.013;

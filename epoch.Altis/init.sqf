@@ -7,6 +7,8 @@ if (isServer) then {
 	hint parseText format["%1", _this select 1];
 };
 
+[] execVM "wai\remote.sqf";
+
 [] execVM "addons\brief\Briefing.sqf";
 
 //[] execVM "addons\module_chatIntercept\init.sqf";

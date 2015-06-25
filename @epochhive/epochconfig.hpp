@@ -1,4 +1,4 @@
-serverRestart         = true; // true sends #shutdown command to server after the time specified in ForceRestartTime
+serverRestart         = false; // true sends #shutdown command to server after the time specified in ForceRestartTime
 forceRestartTime      = 14400; // 4 hour restarts
 
 StorageSlotsLimit = 1500; // Max storage slots allowed. Warning! Higher the number lower performance.
@@ -11,7 +11,7 @@ timeMultiplier = 4; // Sets a time multiplier for in-game time. The command rang
 lootMultiplier = 0.6; // 1 = max loot bias. This controls how much loot can payout per Epoch loot container.
 // Events
 WeatherChangeTime = 1200; // This controls how fast the weather changes as well as how fast shipping containers and earthquakes happen.
-WeatherStaticForecast[] = {}; // Default: {75.5,0,{0,0,0},0,{1,1}}; // Clear day; {19,1,{1,1,40},1,{5,5}}; // Cold Foggy Rainy Overcast Windy; Format: {temp <scalar>,rain <scalar>,fog <array>,overcast <scalar>,wind <array>} 
+WeatherStaticForecast[] = {75.5,0,{0,0,0},0,{1,1}}; // Default: {75.5,0,{0,0,0},0,{1,1}}; // Clear day; {19,1,{1,1,40},1,{5,5}}; // Cold Foggy Rainy Overcast Windy; Format: {temp <scalar>,rain <scalar>,fog <array>,overcast <scalar>,wind <array>} 
 events[] = {
     { 3600, "CarnivalSpawner" }, // SECOND <scalar>, EVENT <string>
     { 1200, "EarthQuake" },
@@ -79,7 +79,7 @@ allowedVehiclesList[] = {
 taxRate = 0.1; // controls the price increase for purchases
 starterTraderItems[] = { { "ItemSodaBurst", "meatballs_epoch", "MortarBucket", "CinderBlocks", "VehicleRepair", "CircuitParts", "ItemCorrugated", "PartPlankPack", "ItemRock", "ItemRope", "ItemStick" }, { 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 } }; // Starter Items for fresh spawned trader first array is classnames second is quantity.
 NPCSlotsLimit = 50; // Max number of traders static or dynamic. Warning! Higher the number lower performance.
-forceStaticTraders = false; // disables traders moving from work to home
+forceStaticTraders = true; // disables traders moving from work to home
 
 // Markers
 showEarthQuakes = true; // show mineral viens caused by earthquakes
