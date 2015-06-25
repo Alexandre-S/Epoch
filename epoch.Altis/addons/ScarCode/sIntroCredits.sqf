@@ -22,7 +22,6 @@ _credits =
 ["Server Mod",["Ethan Hawx","Emilio Coleman"]],
 ["Rules",["No base camping","No bambi kill","No kill in trader city","No troll","No cheat","(open your map for full rules)"]],
 ["Server scripts",["Status Bar","SEM","Dayz Style Heli Crash","Ear Plug","High Vehicles Spawn","Much more"]],
-["Email",["oshydaka@gmail.com"]],
 ["Special thanks",["Epoch Team"]]
 ];
 _titleColor = "#01DF01"; // Color of credit title in HTML format. Link: http://html-color-codes.info/
@@ -42,8 +41,8 @@ _creditsFnc =
 	{
 		_selectTitle = _x select 0;
 		_selectSubs = _x select 1;
-		_all = format ["<t size='0.8' color='%1' align='right'>%2<br /></t>", _titleColor, _selectTitle];
-		_all = _all + format["<t size='1.2' color='%1' align='right'>", _subColor];
+		_all = format ["<t size='1' color='%1' align='right'>%2<br /></t>", _titleColor, _selectTitle];
+		_all = _all + format["<t size='0.8' color='%1' align='right'>", _subColor];
 		{
 			_all = _all + format ["%1<br />", _x]
 		} forEach _selectSubs;
