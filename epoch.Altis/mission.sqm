@@ -18,11 +18,15 @@ class Mission
 		"A3_Characters_F_Civil",
 		"A3_epoch_config",
 		"a3_characters_f",
-		"A3_Data_F_Curator_Virtual"
+		"A3_Data_F_Curator_Virtual",
+		"A3_Modules_F_Curator_Curator",
+		"A3_Structures_F_Civ_Lamps"
 	};
 	addOnsAuto[]=
 	{
 		"a3_epoch_config",
+		"A3_Modules_F_Curator_Curator",
+		"A3_Structures_F_Civ_Lamps",
 		"a3_map_altis"
 	};
 	randomSeed=12032465;
@@ -47,7 +51,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=100;
+		items=101;
 		class Item0
 		{
 			side="CIV";
@@ -2047,6 +2051,116 @@ class Mission
 					skill=0.60000002;
 				};
 			};
+		};
+		class Item100
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={0.59027183,0,0.54174805};
+					class args
+					{
+						items=4;
+						class Item0
+						{
+							value="76561198010101889";
+							parentCls="ModuleCurator_F";
+							typeName="Owner";
+						};
+						class Item1
+						{
+							value="";
+							parentCls="ModuleCurator_F";
+							typeName="Name";
+						};
+						class Item2
+						{
+							value="2";
+							parentCls="ModuleCurator_F";
+							typeName="Addons";
+						};
+						class Item3
+						{
+							value="0";
+							parentCls="ModuleCurator_F";
+							typeName="Forced";
+						};
+					};
+					id=100;
+					side="LOGIC";
+					vehicle="ModuleCurator_F";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=6;
+		class Item0
+		{
+			position[]={23602.402,3.1900001,18008.748};
+			azimut=180;
+			id=101;
+			side="EMPTY";
+			vehicle="Land_LampHarbour_F";
+			skill=0.60000002;
+			init="this allowDamage false;this setdir 180;this setposATL [23602.402344,18008.748047,0];this setVectorUp [0,0,1]";
+		};
+		class Item1
+		{
+			position[]={23598.912,3.1900001,18008.715};
+			azimut=180;
+			id=102;
+			side="EMPTY";
+			vehicle="Land_LampHarbour_F";
+			skill=0.60000002;
+			init="this allowDamage false;this setdir 180;this setposATL [23598.912109,18008.714844,0];this setVectorUp [0,0,1]";
+		};
+		class Item2
+		{
+			position[]={23585.436,3.1900001,18001.906};
+			azimut=90;
+			id=103;
+			side="EMPTY";
+			vehicle="Land_LampHarbour_F";
+			skill=0.60000002;
+			init="this allowDamage false;this setdir 90;this setposATL [23585.435547,18001.90625,0];this setVectorUp [0,0,1]";
+		};
+		class Item3
+		{
+			position[]={23585.436,3.1900001,17999.342};
+			azimut=90;
+			id=104;
+			side="EMPTY";
+			vehicle="Land_LampHarbour_F";
+			skill=0.60000002;
+			init="this allowDamage false;this setdir 90;this setposATL [23585.435547,17999.341797,0];this setVectorUp [0,0,1]";
+		};
+		class Item4
+		{
+			position[]={23615.248,3.1900001,17999.342};
+			azimut=-90;
+			id=105;
+			side="EMPTY";
+			vehicle="Land_LampHarbour_F";
+			skill=0.60000002;
+			init="this allowDamage false;this setdir -90;this setposATL [23615.248047,17999.341797,0];this setVectorUp [0,0,1]";
+		};
+		class Item5
+		{
+			position[]={23615.248,3.1900001,18002.176};
+			azimut=270;
+			id=106;
+			side="EMPTY";
+			vehicle="Land_LampHarbour_F";
+			skill=0.60000002;
+			init="this allowDamage false;this setdir 270;this setposATL [23615.248047,18002.175781,0];this setVectorUp [0,0,1]";
 		};
 	};
 	class Markers
