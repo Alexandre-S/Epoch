@@ -51,7 +51,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=101;
+		items=100;
 		class Item0
 		{
 			side="CIV";
@@ -2048,52 +2048,6 @@ class Mission
 					vehicle="VirtualMan_EPOCH";
 					player="PLAY CDG";
 					leader=1;
-					skill=0.60000002;
-				};
-			};
-		};
-		class Item100
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={0.59027183,0,0.54174805};
-					class args
-					{
-						items=4;
-						class Item0
-						{
-							value="76561198010101889";
-							parentCls="ModuleCurator_F";
-							typeName="Owner";
-						};
-						class Item1
-						{
-							value="";
-							parentCls="ModuleCurator_F";
-							typeName="Name";
-						};
-						class Item2
-						{
-							value="2";
-							parentCls="ModuleCurator_F";
-							typeName="Addons";
-						};
-						class Item3
-						{
-							value="0";
-							parentCls="ModuleCurator_F";
-							typeName="Forced";
-						};
-					};
-					id=100;
-					side="LOGIC";
-					vehicle="ModuleCurator_F";
-					leader=1;
-					lock="UNLOCKED";
 					skill=0.60000002;
 				};
 			};
