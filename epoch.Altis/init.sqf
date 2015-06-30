@@ -27,6 +27,7 @@ if(hasInterface) then{
 	///  v1.4.1.  ////////////////////////////////
 	[] ExecVM "addons\ScarCode\sIntroCredits.sqf";
 	
+	[] ExecVM "addons\ScarCode\SRW\fn_initSRW.sqf";	
 	//Status Bar
 	[] execVM "addons\Status_Bar\init_statusBar.sqf"
 	
