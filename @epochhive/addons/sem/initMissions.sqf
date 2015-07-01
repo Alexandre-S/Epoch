@@ -16,7 +16,7 @@ SEM_AIdisableSniperDamage = false;	// Set to false to allow sniper damage from a
 SEM_AIsniperDamageDistance = 500;	// Max. distance (in meters) where AI takes damage (min. 300 -  max. 1000).
 
 // Chance of AI dropping their guns and keeping their gear (vests, backpacks and magazines) when killed.
-SEM_AIdropGearChance = 40;	//	Values: 0-100%	Where 0 means all gear gets removed from dead AI units.
+SEM_AIdropGearChance = 100;	//	Values: 0-100%	Where 0 means all gear gets removed from dead AI units.
 
 SEM_removeWeaponsFromDeadAI = [];	// Weapons that should be removed from killed AI
 SEM_removeMagazinesFromDeadAI = [];	// Magazines that should be removed from killed AI
