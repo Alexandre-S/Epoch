@@ -22,7 +22,6 @@ call compile preProcessFileLineNumbers "addons\cmEarplugs\config.sqf";
 
 if(hasInterface) then{
 	//[] ExecVM "addons\gps\gps.sqf";
-	[] ExecVM "addons\gps\gps2.sqf";
 	///////  Server Intro Credits by IT07  ///////
 	///  v1.4.1.  ////////////////////////////////
 	[] ExecVM "addons\ScarCode\sIntroCredits.sqf";
