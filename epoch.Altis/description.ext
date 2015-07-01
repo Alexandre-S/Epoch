@@ -1,5 +1,4 @@
 #include "addons\halv_spawn\spawndialog.hpp"
-#include "addons\ScarCode\global.hpp";
 
 author = "Epoch Mod Team & Youri Litovski";
 class Header
