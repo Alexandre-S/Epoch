@@ -32,7 +32,7 @@ if(isServer) then {
 		@Return
 			null
 	*/
-	[_mission,_position,"Medium","MV22 Crash","MainBandit",false] call mission_init;
+	[_mission,_position,"Medium","MV22 Crash (hard)","MainBandit",false] call mission_init;
 	diag_log 		format["WAI: [Mission: MV22 Crash]: Starting... %1", mapGridPosition(_position)];
 	/*
 		@Description
@@ -144,7 +144,7 @@ if(isServer) then {
 		_VehiclePosition,		// Position to spawn chopper at
 		250,					// Radius of patrol
 		10,						// Number of waypoints to give
-		"B_MRAP_01_hmg_F",// Classname of vehicle (make sure it has driver and two gunners)
+		"B_G_Offroad_01_armed_F",// Classname of vehicle (make sure it has driver and two gunners)
 		"Random",				// Skill level of units (easy, medium, hard, extreme, Random)
 		0,						// AI CLASS
 		"Bandit",				// AI Type, "Hero" or "Bandit".
@@ -170,7 +170,7 @@ if(isServer) then {
 			vehicle
 	*/
 	
-	[
+	/*[
 		[(_position select 0),(_position select 1),0],
 		[0,0,0],
 		800,
@@ -181,7 +181,7 @@ if(isServer) then {
 		"bandit",
 		false,
 		_mission
-	] spawn heli_para;
+	] spawn heli_para;*/
 
 	/************************************************************************************/
 		/*
@@ -235,7 +235,7 @@ if(isServer) then {
 		[_mission,_crate],	// mission number and crate
 		["crate"], 			// ["crate"], or ["kill"], or ["assassinate", _unitGroup],
 		[_baserunover], 	// cleanup objects
-		"A MV22 carrying supplies has crashed and rebels are securing the site! Check your map for the location!",	// mission announcement
+		"A Heavyly garded MV22 carrying supplies has crashed and rebels are securing the site! Check your map for the location!",	// mission announcement
 		"Rebels have secured the crashed MV22!",																	// mission success
 		"Rebels did not secure the crashed MV22 in time"															// mission fail
 	] call mission_winorfail;

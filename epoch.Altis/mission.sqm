@@ -25,14 +25,13 @@ class Mission
 	addOnsAuto[]=
 	{
 		"a3_epoch_config",
-		"A3_Modules_F_Curator_Curator",
 		"A3_Structures_F_Civ_Lamps",
 		"a3_map_altis"
 	};
 	randomSeed=12032465;
 	class Intel
 	{
-		briefingName="Epoch Vault";
+		briefingName="Epoch Mod Vault";
 		resistanceWest=0;
 		timeOfChanges=28800;
 		startWeather=0;
@@ -2060,7 +2059,7 @@ class Mission
 		{
 			position[]={23602.402,3.1900001,18008.748};
 			azimut=180;
-			id=101;
+			id=100;
 			side="EMPTY";
 			vehicle="Land_LampHarbour_F";
 			skill=0.60000002;
@@ -2070,7 +2069,7 @@ class Mission
 		{
 			position[]={23598.912,3.1900001,18008.715};
 			azimut=180;
-			id=102;
+			id=101;
 			side="EMPTY";
 			vehicle="Land_LampHarbour_F";
 			skill=0.60000002;
@@ -2080,7 +2079,7 @@ class Mission
 		{
 			position[]={23585.436,3.1900001,18001.906};
 			azimut=90;
-			id=103;
+			id=102;
 			side="EMPTY";
 			vehicle="Land_LampHarbour_F";
 			skill=0.60000002;
@@ -2090,7 +2089,7 @@ class Mission
 		{
 			position[]={23585.436,3.1900001,17999.342};
 			azimut=90;
-			id=104;
+			id=103;
 			side="EMPTY";
 			vehicle="Land_LampHarbour_F";
 			skill=0.60000002;
@@ -2100,7 +2099,7 @@ class Mission
 		{
 			position[]={23615.248,3.1900001,17999.342};
 			azimut=-90;
-			id=105;
+			id=104;
 			side="EMPTY";
 			vehicle="Land_LampHarbour_F";
 			skill=0.60000002;
@@ -2110,7 +2109,7 @@ class Mission
 		{
 			position[]={23615.248,3.1900001,18002.176};
 			azimut=270;
-			id=106;
+			id=105;
 			side="EMPTY";
 			vehicle="Land_LampHarbour_F";
 			skill=0.60000002;
@@ -2119,7 +2118,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=10;
+		items=12;
 		class Item0
 		{
 			position[]={14939.934,0.053499073,15083.272};
@@ -2193,6 +2192,24 @@ class Mission
 			text="Marchand Mort | Dead Trader";
 			type="mil_dot";
 			colorName="ColorRed";
+		};
+		class Item10
+		{
+			position[]={8445.2354,106.73943,25056.83};
+			name="futurBase";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorRed";
+			a=700;
+			b=700;
+		};
+		class Item11
+		{
+			position[]={8482.624,109.36047,25109.178};
+			name="txt";
+			text="Camp IA en dév, merci de ne rien construire ici | Futur AI base, please do not build here";
+			type="mil_dot";
+			colorName="ColorBlack";
 		};
 	};
 };

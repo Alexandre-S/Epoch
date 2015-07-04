@@ -9,27 +9,104 @@
 		<cmd>say -1 Server Restart in 15 Minutes!</cmd>
 	</job>
 	<job id="1">
+		<start>034505</start>
+		<runtime>000000</runtime>
+		<day>1,2,3,4,5,6,7</day>
+		<loop>0</loop>
+		<cmd>say -1 Server Restart in 15 Minutes!</cmd>
+	</job>
+	<job id="2">
+		<start>034510</start>
+		<runtime>000000</runtime>
+		<day>1,2,3,4,5,6,7</day>
+		<loop>0</loop>
+		<cmd>say -1 Server Restart in 15 Minutes!</cmd>
+	</job>
+	<job id="3">
 		<start>035000</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
 		<cmd>say -1 Server Restart in 10 Minutes!</cmd>
 	</job>
-	<job id="2">
+	<job id="4">
+		<start>035005</start>
+		<runtime>000000</runtime>
+		<day>1,2,3,4,5,6,7</day>
+		<loop>0</loop>
+		<cmd>say -1 Server Restart in 10 Minutes!</cmd>
+	</job>
+	<job id="5">
+		<start>035010</start>
+		<runtime>000000</runtime>
+		<day>1,2,3,4,5,6,7</day>
+		<loop>0</loop>
+		<cmd>say -1 Server Restart in 10 Minutes!</cmd>
+	</job>
+	<job id="6">
 		<start>035500</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
-		<cmd>say -1 Server Restart in 5 Minutes!</cmd>
+		<cmd>#lock</cmd>
 	</job>
-	<job id="3">
+	<job id="7">
+		<start>035500</start>
+		<runtime>000000</runtime>
+		<day>1,2,3,4,5,6,7</day>
+		<loop>0</loop>
+		<cmd>say -1 Server Restart in 5 Minutes! Please logout!</cmd>
+	</job>
+	<job id="8">
+		<start>035505</start>
+		<runtime>000000</runtime>
+		<day>1,2,3,4,5,6,7</day>
+		<loop>0</loop>
+		<cmd>say -1 Server Restart in 5 Minutes! Please logout!</cmd>
+	</job>
+	<job id="9">
+		<start>035510</start>
+		<runtime>000000</runtime>
+		<day>1,2,3,4,5,6,7</day>
+		<loop>0</loop>
+		<cmd>say -1 Server Restart in 5 Minutes! Please logout!</cmd>
+	</job>
+	<job id="10">
 		<start>035800</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
 		<cmd>say -1 Server Restart in 2 Minutes! LOGOUT NOW!</cmd>
 	</job>
-	<job id="4">
+	<job id="11">
+		<start>035801</start>
+		<runtime>000000</runtime>
+		<day>1,2,3,4,5,6,7</day>
+		<loop>0</loop>
+		<cmd>say -1 Server Restart in 2 Minutes! LOGOUT NOW!</cmd>
+	</job>
+	<job id="12">
+		<start>035802</start>
+		<runtime>000000</runtime>
+		<day>1,2,3,4,5,6,7</day>
+		<loop>0</loop>
+		<cmd>say -1 Server Restart in 2 Minutes! LOGOUT NOW!</cmd>
+	</job>
+	<job id="13">
+		<start>035803</start>
+		<runtime>000000</runtime>
+		<day>1,2,3,4,5,6,7</day>
+		<loop>0</loop>
+		<cmd>say -1 Server Restart in 2 Minutes! LOGOUT NOW!</cmd>
+	</job>
+	<job id="14">
+		<start>035804</start>
+		<runtime>000000</runtime>
+		<day>1,2,3,4,5,6,7</day>
+		<loop>0</loop>
+		<cmd>say -1 Server Restart in 2 Minutes! LOGOUT NOW!</cmd>
+	</job>
+	<job id="15">
 		<start>040000</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>

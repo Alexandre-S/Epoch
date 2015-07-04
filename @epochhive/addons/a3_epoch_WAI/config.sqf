@@ -143,10 +143,11 @@ if(isServer) then {
 		//Syntax ["MISSION NAME","CHANGE"] Change must equal 100 when put together 
 		wai_bandit_missions			= [
 										["nuke",2],
+										["debug",10],
 										["sniper_team",23],
 										["rebel_base",25],
 										["medi_camp",20],
-										["ikea_convoy",30],
+										["ikea_convoy",20],
 										
 										
 										["patrol",0],
