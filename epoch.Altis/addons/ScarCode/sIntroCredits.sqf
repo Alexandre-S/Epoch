@@ -19,7 +19,7 @@ _credits =
 [
 ["Welcome to",["Epoch Vault"]],
 ["Admins",["Youri Litovski","Benji","le serpent mexicain","Sentinel"]],
-["Server Mod",["Ethan Hawx","Emilio Coleman"]],
+["Server Mod",["Ethan Hawx","Tom Mason"]],
 ["TeamSpeak",["92.222.168.218:9999"]],
 ["Rules",["No base camping","No bambi kill","No kill in trader city","No troll","No cheat","(open your map for full rules)"]],
 ["Server scripts",["Status Bar","SEM","Dayz Style Heli Crash","Ear Plug","High Vehicles Spawn","Much more"]],
