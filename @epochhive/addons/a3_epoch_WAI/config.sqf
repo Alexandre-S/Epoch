@@ -137,8 +137,8 @@ if(isServer) then {
 		wai_remove_launcher			= true;				// remove rocket launcher from AI on death
 
 		// Missions
-		wai_announce				= "radio";			// Setting this to true will announce the missions to those that hold a radio only "radio", "global", "hint", "text"
-		wai_bandit_limit			= 1;				// define how many bandit missions can run at once
+		wai_announce				= "hint";			// Setting this to true will announce the missions to those that hold a radio only "radio", "global", "hint", "text"
+		wai_bandit_limit			= 2;				// define how many bandit missions can run at once
 		
 		//Syntax ["MISSION NAME","CHANGE"] Change must equal 100 when put together 
 		wai_bandit_missions			= [

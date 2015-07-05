@@ -180,3 +180,7 @@ H = Holster/Un-holster weapon.<br/>
 Double left click = Use item from inventory, enter crating menu, sell/buy items from trader.<br/>
 CTRL + SALUTE = The one finger salute<br/>"]];
 
+player createDiaryRecord["wiki",["TeamSpeak","<br/>
+92.222.168.218:9999"]];
+
+
