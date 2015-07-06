@@ -112,7 +112,7 @@ class CfgCrafting
 	};
 	class jerrycanE_epoch : Default
 	{
-		recipe[] = { {"ItemCorrugatedLg",3} };
+		recipe[] = { {"ItemCorrugatedLg",1} };
 		nearby[] = { { "fire", { "ALL" }, 3, 1, "Fire", "fire" } };
 	};
 	class optic_LRPS : Default
