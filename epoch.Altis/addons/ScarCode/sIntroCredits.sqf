@@ -23,6 +23,7 @@ _credits =
 ["TeamSpeak",["92.222.168.218:9999"]],
 ["Rules",["No base camping","No bambi kill","No kill in trader city","No troll","No cheat","(open your map for full rules)"]],
 ["Server scripts",["Status Bar","SEM","Dayz Style Heli Crash","Ear Plug","High Vehicles Spawn","Much more"]],
+["Our donators",["DeathTwizy"]],
 ["Special thanks",["Epoch Team"]]
 ];
 _titleColor = "#01DF01"; // Color of credit title in HTML format. Link: http://html-color-codes.info/

@@ -14,6 +14,8 @@ waitUntil {isNuLL(uiNameSpace getVariable ["EPOCH_loadingScreen",displayNull])};
 
 player createDiarySubject ["rules","--- Server Rules ---"];
 player createDiarySubject ["wiki","--- Wiki ---"];
+player createDiarySubject ["ts","--- TeamSpeak ---"];
+player createDiarySubject ["don","--- Donate ---"];
 
 // Rules
 
@@ -155,7 +157,12 @@ Cinder Block Wall = 4x Cinder Blocks 2x Bucket of Mortar<br/>
 Cinder Block Wall UG1 = 2x Cinder Blocks<br/>
 Cinder Block Wall UG2 = 1x Salvage Metal Large 1x Electronic Components<br/>
 Food Cooler = 1x Food Cooler Empty 1x Cooked Meat 1x Sweetcorn<br/>
-Vehicle Repair Kit = 1x Vehicle Repair Part 1x Salvage Metal small (need FIRE)<br/>"]];
+Vehicle Repair Kit = 1x Vehicle Repair Part 1x Salvage Metal small (need FIRE)<br/>
+Jerrycan (empty) = 1x Salvage Metal Large (need FIRE)<br/>
+Rope = 1x Kilo of hemp<br/>
+LRPS = 2x Metal Scraps 1x Binocular (need FIRE)<br/>
+TWS = 2x Metal Scraps 1x Rangefinder 1x Circuit Part (need FIRE)<br/>
+NVG = 1x Metal Scraps 1x Binocular 1x Circuit Part<br/>"]];
 
 player createDiaryRecord["wiki",["BUILDING CONTROLS","<br/>
 CTRL + i = Upgrade in place while looking at the object.<br/>
@@ -180,7 +187,10 @@ H = Holster/Un-holster weapon.<br/>
 Double left click = Use item from inventory, enter crating menu, sell/buy items from trader.<br/>
 CTRL + SALUTE = The one finger salute<br/>"]];
 
-player createDiaryRecord["wiki",["TeamSpeak","<br/>
-92.222.168.218:9999"]];
+player createDiaryRecord["ts",["TEAMSPEAK","<br/>
+92.222.168.218:9999<br/>"]];
 
+player createDiaryRecord["don",["DONATE | DONATION","<br/>
+If you want to donate, our paypal adress is : aaalex123@hotmail.fr | Si vous souhaitez faire un don, notre adresse paypal est : aaalex123@hotmail.fr<br/>
+Please note that donate are NOT mandatory and you donate if YOU want | Veuillez noter que les donations ne sont PAS obligatoire, et que vous donnez si VOUS le voulez !<br/>"]];
 

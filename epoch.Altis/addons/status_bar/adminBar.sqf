@@ -49,6 +49,7 @@ disableSerialization;
 		_stamina = round(EPOCH_playerStamina * 100) / 100;
 		_energy = round(EPOCH_playerEnergy);
 		_toxPercent = round (EPOCH_playerToxicity);
+		_soiled = round(EPOCH_playerSoiled);
 		_energyPercent =  floor((_energy / 2500 ) * 100);
 		_serverFPS = if (typeName EPOCH_diag_fps == "SCALAR") then [{EPOCH_diag_fps},{"MANIPULATED"}],
 		_pos = getPosATL player;  //switch to this below if you want to have world space coords displayed instead of gridref
@@ -161,6 +162,23 @@ disableSerialization;
 			case(_toxPercent < 1) : {_colourToxicity =  _colour100;};
 		};
 		
+		//Soiled
+		_colourSoiled = _colourDefault;
+		switch true do{
+			case(_soiled >= 100) : {_colourSoiled = _colourDead;};
+			case((_soiled >= 90) && (_soiled < 100)) :  {_colourSoiled =  _colour00;};
+			case((_soiled >= 80) && (_soiled < 90)) :  {_colourSoiled =  _colour10;};
+			case((_soiled >= 70) && (_soiled < 80)) :  {_colourSoiled =  _colour20;};
+			case((_soiled >= 60) && (_soiled < 70)) :  {_colourSoiled =  _colour30;};
+			case((_soiled >= 50) && (_soiled < 60)) :  {_colourSoiled =  _colour40;};
+			case((_soiled >= 40) && (_soiled < 50)) :  {_colourSoiled =  _colour50;};
+			case((_soiled >= 30) && (_soiled < 40)) :  {_colourSoiled =  _colour60;};
+			case((_soiled >= 20) && (_soiled < 30)) :  {_colourSoiled =  _colour70;};
+			case((_soiled >= 10) && (_soiled < 20)) :  {_colourSoiled =  _colour80;};
+			case((_soiled >= 1) && (_soiled < 10)) :  {_colourSoiled =  _colour90;};
+			case(_soiled < 1) : {_colourSoiled =  _colour100;};
+		};
+		
 		//Stamina
 		_colourStamina = _colourDefault;
 
@@ -173,6 +191,7 @@ disableSerialization;
 			<t shadow='1' shadowColor='#000000' color='%13'><img size='1.6'  shadowColor='#000000' image='addons\status_bar\images\thirst.paa' color='%13'/> %6%1</t> 
 			<t shadow='1' shadowColor='#000000' color='%15'><img size='1.6'  shadowColor='#000000' image='addons\status_bar\images\stamina.paa' color='%15'/>%9</t> 
 			<t shadow='1' shadowColor='#000000' color='%17'><img size='1.6'  shadowColor='#000000' image='addons\status_bar\images\toxicity.paa' color='%17'/>%18</t> 
+			<t shadow='1' shadowColor='#000000' color='%21'><img size='1.6'  shadowColor='#000000' image='addons\status_bar\images\soiled.paa' color='%21'/>%22</t> 
 			<t shadow='1' shadowColor='#000000' color='%14'><img size='1.6'  shadowColor='#000000' image='addons\status_bar\images\energy.paa' color='%14'/>%8%1</t> 
 			<t shadow='1' shadowColor='#000000' color='%10'><img size='1.6'  shadowColor='#000000' image='addons\status_bar\images\restart.paa' color='%10'/>%19:%20</t>
 			<t shadow='1' shadowColor='#000000' color='%10'>FPS: %7</t>
@@ -196,7 +215,9 @@ disableSerialization;
 					_colourToxicity,
 					_toxPercent,
 					_hours,
-					_minutes
+					_minutes,
+					_colourSoiled,
+					_soiled
 					
 					 
 				];
