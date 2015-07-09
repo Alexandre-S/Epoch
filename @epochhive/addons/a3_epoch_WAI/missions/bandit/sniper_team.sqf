@@ -23,7 +23,7 @@ if(isServer) then {
 	_unitGroup = [[(_position select 0) + (random(30)+1),(_position select 1) - (random(35)+1),0],2,"easy","random","bandit",_mission] call spawn_group;
 	
 	// PARA
-	[
+	/*[
 		[(_position select 0),(_position select 1),0],
 		[0,0,0],
 		400,
@@ -34,7 +34,7 @@ if(isServer) then {
 		"bandit",
 		false,
 		_mission
-	] spawn heli_para;
+	] spawn heli_para;*/
 	
 	// Condition
 	_complete = [

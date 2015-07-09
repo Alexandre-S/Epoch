@@ -79,7 +79,7 @@ if(isServer) then {
 		["crate"], 						// ["crate"], or ["kill"], or ["assassinate", _unitGroup],
 		[_baserunover],	// cleanup objects
 		"A heavily guarded Ikea convoy is taking a lunch break, bandites are securing the parameter. See if you can make the building supplies yours.",	// mission announcement
-		"Survivers have successfully ambushed the Jem og Fix convoy and secured the building supplies!",			// mission success
+		"Survivers have successfully ambushed the Ikea convoy and secured the building supplies!",			// mission success
 		"Survivers were unable to surprise the bandites on their lunchbreak"									// mission fail
 	] call mission_winorfail;
 

@@ -32,7 +32,7 @@ if(isServer) then {
 		@Return
 			null
 	*/
-	[_mission,_position,"Medium","MV22 Crash (hard)","MainBandit",false] call mission_init;
+	[_mission,_position,"extreme","MV22 Crash (hard)","MainBandit",false] call mission_init;
 	diag_log 		format["WAI: [Mission: MV22 Crash]: Starting... %1", mapGridPosition(_position)];
 	/*
 		@Description
@@ -42,7 +42,7 @@ if(isServer) then {
 		@Return
 			select 0 = crate
 	*/
-	_crate = [1,_position] call wai_spawn_create;
+	_crate = [2,_position] call wai_spawn_create;
 
 	//Base
 	_baserunover 	= createVehicle ["Land_UWreck_MV22_F",[((_position select 0) + 5), ((_position select 1) + 5), 0],[],10,"FORM"];
@@ -64,9 +64,9 @@ if(isServer) then {
 	
 	/**************************************** Troops ********************************************/
 	
-	[[(_position select 0) + (random(10)+1),(_position select 1) - (random(15)+1),0],3,"Medium",[1,"AT"],"bandit",_mission] call spawn_group;
-	[[(_position select 0) + (random(10)+1),(_position select 1) - (random(15)+1),0],3,"Medium","Random","bandit",_mission] call spawn_group;
-	[[(_position select 0) + (random(10)+1),(_position select 1) - (random(15)+1),0],3,"Medium",0,"bandit",_mission] call spawn_group;
+	[[(_position select 0) + (random(10)+1),(_position select 1) - (random(15)+1),0],5,"hard",[1,"AT"],"bandit",_mission] call spawn_group;
+	[[(_position select 0) + (random(10)+1),(_position select 1) - (random(15)+1),0],5,"hard","Random","bandit",_mission] call spawn_group;
+	[[(_position select 0) + (random(10)+1),(_position select 1) - (random(15)+1),0],5,"hard",0,"bandit",_mission] call spawn_group;
 
 	/**************************************** Static ********************************************/
 	/*
@@ -85,7 +85,9 @@ if(isServer) then {
 	[
 		[
 			[(_position select 0) + 25, (_position select 1) + 25, 0],
-			[(_position select 0) - 25, (_position select 1) - 25, 0]
+			[(_position select 0) - 25, (_position select 1) + 25, 0],
+			[(_position select 0) - 25, (_position select 1) - 25, 0],
+			[(_position select 0) + 25, (_position select 1) - 25, 0]
 		],
 		"O_HMG_01_high_F",
 		"hard","bandit",
@@ -115,7 +117,7 @@ if(isServer) then {
 		200,					// Radius of patrol
 		10,						// Number of waypoints to give
 		"B_Heli_Light_01_EPOCH",	// Classname of vehicle (make sure it has driver and two gunners)
-		"Random",				// Skill level of units (easy, medium, hard, extreme, Random)
+		"hard",				// Skill level of units (easy, medium, hard, extreme, Random)
 		"Random",				// AI CLASS
 		"Bandit",				// AI Type, "Hero" or "Bandit".
 		_mission
@@ -140,13 +142,13 @@ if(isServer) then {
 			vehicle
 	*/
 	[
-		[_position select 0,_position select 1,0],		// Position to patrol
+		[(_position select 0) + 25,(_position select 1) + 25,0],		// Position to patrol
 		_VehiclePosition,		// Position to spawn chopper at
 		250,					// Radius of patrol
 		10,						// Number of waypoints to give
 		"B_G_Offroad_01_armed_F",// Classname of vehicle (make sure it has driver and two gunners)
-		"Random",				// Skill level of units (easy, medium, hard, extreme, Random)
-		0,						// AI CLASS
+		"hard",				// Skill level of units (easy, medium, hard, extreme, Random)
+		"Random",				// AI CLASS
 		"Bandit",				// AI Type, "Hero" or "Bandit".
 		_mission
 	] call vehicle_patrol;
@@ -236,8 +238,8 @@ if(isServer) then {
 		["crate"], 			// ["crate"], or ["kill"], or ["assassinate", _unitGroup],
 		[_baserunover], 	// cleanup objects
 		"A Heavyly garded MV22 carrying supplies has crashed and rebels are securing the site! Check your map for the location!",	// mission announcement
-		"Rebels have secured the crashed MV22!",																	// mission success
-		"Rebels did not secure the crashed MV22 in time"															// mission fail
+		"Survivers have secured the crashed MV22!",																	// mission success
+		"Survivers did not secure the crashed MV22 in time"															// mission fail
 	] call mission_winorfail;
 
 	if(_complete) then {
@@ -252,7 +254,7 @@ if(isServer) then {
 			4 = (int)		Number of backpakcs
 		@Retur
 	*/
-		[_crate,5,6,15,2] call dynamic_crate;
+		[_crate,[16,(ai_assault_wep+ai_machine_wep+ai_sniper_wep)],16,[5,crate_items_high_value],[5,crate_backpacks_large]] call dynamic_crate;
 	};
 
 	diag_log format["WAI: [Mission: MV22 Crash]: Ended at %1",mapGridPosition(_position)];
