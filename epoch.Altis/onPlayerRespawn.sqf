@@ -34,6 +34,16 @@ if (isNil {player getVariable "Has_EPEH_Loop"}) then {player setVariable["Has_EP
 earplugsout=true;	
 SuperFunEPEHVariable = false;
 /////////////////////////////////////////////////////////////////////////
+if (!isDedicated and hasInterface) then 
+{
+	if("EpochRadio0" in items player) then
+	{
+		getGearVIP=true;
+	} else {
+		getGearVIP=false;
+	};
+};
+
 uisleep 1;
 _hasEPEH = player getVariable "Has_EPEH_Loop";
 uisleep 1;

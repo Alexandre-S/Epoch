@@ -32,6 +32,8 @@ if(hasInterface) then{
 	
 	//SEM
 	execVM "addons\SEM\semClient.sqf"
+	
+	getGearVIP=false;
 };
 
 [] execVM "addons\messages\init.sqf";
