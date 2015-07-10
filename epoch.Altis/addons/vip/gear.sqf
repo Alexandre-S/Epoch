@@ -16,7 +16,7 @@ _Armes = ["hgun_ACPC2_F","hgun_Rook40_F","hgun_P07_F","hgun_Pistol_heavy_01_F","
 //_Tenues = ["U_C_Poloshirt_blue","U_C_Poloshirt_burgundy","U_C_Poloshirt_stripped","U_C_Poloshirt_redwhite","U_C_Poloshirt_salmon","U_C_Poloshirt_tricolour"];
 _Nourritures = ["FoodBioMeat","FoodMeeps","FoodSnooter","sardines_epoch","meatballs_epoch","scam_epoch","sweetcorn_epoch"];
 _Boissons = ["ItemSodaOrangeSherbet","ItemSodaPurple","ItemSodaMocha","ItemSodaBurst","ItemSodaRbull"];
-_SacsADos = ["smallbackpack_red_epoch","smallbackpack_green_epoch","smallbackpack_teal_epoch","smallbackpack_pink_epoch",];
+_SacsADos = ["smallbackpack_red_epoch","smallbackpack_green_epoch","smallbackpack_teal_epoch","smallbackpack_pink_epoch"];
 
 if (EPOCH_playerCrypto == 10) exitwith { hint parseText format["Vous avez déjà récupéré votre matériel <br/> You already got your gear"];};
 if (getGearVIP) exitwith { hint parseText format["Vous avez déjà récupéré votre matériel <br/> You already got your gear"];};

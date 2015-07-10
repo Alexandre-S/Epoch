@@ -22,7 +22,8 @@ class Mission
 		"A3_Modules_F_Curator_Curator",
 		"A3_Structures_F_Civ_Lamps",
 		"A3_Structures_F_Walls",
-		"A3_Structures_F_Mil_Fortification"
+		"A3_Structures_F_Mil_Fortification",
+		"A3_Weapons_F_Ammoboxes"
 	};
 	addOnsAuto[]=
 	{
@@ -30,6 +31,7 @@ class Mission
 		"A3_Structures_F_Civ_Lamps",
 		"A3_Structures_F_Walls",
 		"A3_Structures_F_Mil_Fortification",
+		"A3_Weapons_F_Ammoboxes",
 		"a3_map_altis"
 	};
 	randomSeed=12032465;
@@ -2058,7 +2060,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=102;
+		items=105;
 		class Item0
 		{
 			position[]={23602.402,3.1900001,18008.748};
@@ -3100,6 +3102,38 @@ class Mission
 			vehicle="Land_Razorwire_F";
 			skill=0.60000002;
 			init="this enableSimulation false;this allowDamage false;this setdir 90;this setposATL [23621.222656,17992.371094,0];this setVectorUp [0,0,1]";
+		};
+		class Item102
+		{
+			position[]={23603.963,3.1900001,18008.807};
+			offsetY=0.20454501;
+			id=202;
+			side="EMPTY";
+			vehicle="B_supplyCrate_F";
+			skill=0.60000002;
+			init="clearMagazineCargoGlobal this;clearWeaponCargoGlobal this;clearItemCargoGlobal this;clearAllItemsFromBackpack this;clearBackpackCargoGlobal this;this enableSimulation false;this allowDamage false;this setdir 0;this setposATL [23603.962891,18008.806641,0.204545];this setVectorUp [0,0,1];this addAction[""<t color='#F4F746'>Get VIP gear | Recevoir Équipement VIP</t>"", ""addons\vip\gear.sqf""];";
+		};
+		class Item103
+		{
+			position[]={23615.297,3.1900001,17997.977};
+			azimut=-90;
+			offsetY=0.20454501;
+			id=203;
+			side="EMPTY";
+			vehicle="B_supplyCrate_F";
+			skill=0.60000002;
+			init="clearMagazineCargoGlobal this;clearWeaponCargoGlobal this;clearItemCargoGlobal this;clearAllItemsFromBackpack this;clearBackpackCargoGlobal this;this enableSimulation false;this allowDamage false;this setdir -90;this setposATL [23615.296875,17997.976563,0.204545];this setVectorUp [0,0,1];this addAction[""<t color='#F4F746'>Get VIP gear | Recevoir Équipement VIP</t>"", ""addons\vip\gear.sqf""];";
+		};
+		class Item104
+		{
+			position[]={23585.41,3.1900001,18003.316};
+			azimut=270;
+			offsetY=0.20454501;
+			id=204;
+			side="EMPTY";
+			vehicle="B_supplyCrate_F";
+			skill=0.60000002;
+			init="clearMagazineCargoGlobal this;clearWeaponCargoGlobal this;clearItemCargoGlobal this;clearAllItemsFromBackpack this;clearBackpackCargoGlobal this;this enableSimulation false;this allowDamage false;this setdir 270;this setposATL [23585.410156,18003.316406,0.204545];this setVectorUp [0,0,1];this addAction[""<t color='#F4F746'>Get VIP gear | Recevoir Équipement VIP</t>"", ""addons\vip\gear.sqf""];";
 		};
 	};
 	class Markers

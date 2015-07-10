@@ -28,10 +28,10 @@ if(hasInterface) then{
 	[] ExecVM "addons\ScarCode\sIntroCredits.sqf";
 	
 	//Status Bar
-	[] execVM "addons\Status_Bar\init_statusBar.sqf"
+	[] execVM "addons\Status_Bar\init_statusBar.sqf";
 	
 	//SEM
-	execVM "addons\SEM\semClient.sqf"
+	execVM "addons\SEM\semClient.sqf";
 	
 	getGearVIP=false;
 };
