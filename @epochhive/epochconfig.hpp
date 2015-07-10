@@ -1,8 +1,8 @@
 serverRestart         = false; // true sends #shutdown command to server after the time specified in ForceRestartTime
 forceRestartTime      = 14400; // 4 hour restarts
 
-StorageSlotsLimit = 1500; // Max storage slots allowed. Warning! Higher the number lower performance.
-BuildingSlotsLimit = 1500; // Max building slots allowed. Warning! Higher the number lower performance.
+StorageSlotsLimit = 3000; // Max storage slots allowed. Warning! Higher the number lower performance.
+BuildingSlotsLimit = 3000; // Max building slots allowed. Warning! Higher the number lower performance.
 
 // Time based
 StaticDateTime[] = {2035,6,20,7,0}; // {0,0,0,8,0} would forces the server to start at 8am each time it is started while allowing the year, month and day to stay real time. Any values left at 0 will result in no change.
