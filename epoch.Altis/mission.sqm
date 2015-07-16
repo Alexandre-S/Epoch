@@ -37,7 +37,7 @@ class Mission
 	randomSeed=12032465;
 	class Intel
 	{
-		briefingName="Epoch Mod Vault";
+		briefingName="Epoch Mod";
 		resistanceWest=0;
 		timeOfChanges=28800;
 		startWeather=0;
