@@ -2,112 +2,112 @@
 <!-- GENERATED AUTOMATICALLY BY VERT HOSTING -->
 <Scheduler>
 	<job id="0">
-		<start>034500</start>
+		<start>014500</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
 		<cmd>say -1 Server Restart in 15 Minutes!</cmd>
 	</job>
 	<job id="1">
-		<start>034505</start>
+		<start>014505</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
 		<cmd>say -1 Server Restart in 15 Minutes!</cmd>
 	</job>
 	<job id="2">
-		<start>034510</start>
+		<start>014510</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
 		<cmd>say -1 Server Restart in 15 Minutes!</cmd>
 	</job>
 	<job id="3">
-		<start>035000</start>
+		<start>015000</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
 		<cmd>say -1 Server Restart in 10 Minutes!</cmd>
 	</job>
 	<job id="4">
-		<start>035005</start>
+		<start>015005</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
 		<cmd>say -1 Server Restart in 10 Minutes!</cmd>
 	</job>
 	<job id="5">
-		<start>035010</start>
+		<start>015010</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
 		<cmd>say -1 Server Restart in 10 Minutes!</cmd>
 	</job>
 	<job id="6">
-		<start>035500</start>
+		<start>015500</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
 		<cmd>#lock</cmd>
 	</job>
 	<job id="7">
-		<start>035500</start>
+		<start>015500</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
 		<cmd>say -1 Server Restart in 5 Minutes! Please logout!</cmd>
 	</job>
 	<job id="8">
-		<start>035505</start>
+		<start>015505</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
 		<cmd>say -1 Server Restart in 5 Minutes! Please logout!</cmd>
 	</job>
 	<job id="9">
-		<start>035510</start>
+		<start>015510</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
 		<cmd>say -1 Server Restart in 5 Minutes! Please logout!</cmd>
 	</job>
 	<job id="10">
-		<start>035800</start>
+		<start>015800</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
 		<cmd>say -1 Server Restart in 2 Minutes! LOGOUT NOW!</cmd>
 	</job>
 	<job id="11">
-		<start>035801</start>
+		<start>015801</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
 		<cmd>say -1 Server Restart in 2 Minutes! LOGOUT NOW!</cmd>
 	</job>
 	<job id="12">
-		<start>035802</start>
+		<start>015802</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
 		<cmd>say -1 Server Restart in 2 Minutes! LOGOUT NOW!</cmd>
 	</job>
 	<job id="13">
-		<start>035803</start>
+		<start>015803</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
 		<cmd>say -1 Server Restart in 2 Minutes! LOGOUT NOW!</cmd>
 	</job>
 	<job id="14">
-		<start>035804</start>
+		<start>015804</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
 		<cmd>say -1 Server Restart in 2 Minutes! LOGOUT NOW!</cmd>
 	</job>
 	<job id="15">
-		<start>040000</start>
+		<start>020000</start>
 		<runtime>000000</runtime>
 		<day>1,2,3,4,5,6,7</day>
 		<loop>0</loop>
