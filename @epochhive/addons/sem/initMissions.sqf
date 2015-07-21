@@ -29,8 +29,8 @@ _staticMissions = [
 	["supplyVanCrash",	"Supply Van",		45,	100],
 	["bPlaneCrash",		"Plane Crashsite",	45,	90],
 	["bHeliCrash",		"Heli Crashsite",	45,	85],
-	["bCamp",			"Bandit Camp",		90,	80],
-	["bDevice",			"Strange Device",	45,	75] // NO COMMA AT THE LAST LINE!
+	["bCamp",			"Bandit Camp",		90,	80]
+	//["bDevice",			"Strange Device",	45,	75] // NO COMMA AT THE LAST LINE!
 	/* example */
 	//["file name",		"marker name",		-1,	-1]	
 /*	 1.					2.					3.	4.
