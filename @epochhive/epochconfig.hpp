@@ -29,6 +29,7 @@ antagonistChanceLoot = 0.09; //9% chance when player click "SEARCH" on a loot ob
 cloneCost = 100; // debt incurred on player death
 
 // vehicles - Max vehicle slots is calculated from per vehicle limits below. Warning! Higher the number lower the performance.
+simulationHandler = true; // When enabled this feature disables simulation on vehicles that are not near players. Can help improve client fps at the cost of server fps. (This is disabled by default now that Arma has fixed the original issue)
 vehicleLockTime = 1800; // Controls how many seconds it takes to allow another person/group to unlock vehicle.
 allowedVehiclesList[] = {
     {"C_Offroad_01_EPOCH",10},
