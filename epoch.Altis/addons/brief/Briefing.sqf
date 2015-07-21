@@ -188,7 +188,10 @@ Double left click = Use item from inventory, enter crating menu, sell/buy items 
 CTRL + SALUTE = The one finger salute<br/>"]];
 
 player createDiaryRecord["ts",["TEAMSPEAK","<br/>
-92.222.168.218:9999<br/>"]];
+ts.epochvault.ovh<br/>"]];
+
+player createDiaryRecord["support",["SUPPORT","<br/>
+support@epochvault.ovh<br/>"]];
 
 player createDiaryRecord["don",["DONATE | DONATION","<br/>
 If you want to donate, our paypal adress is : aaalex123@hotmail.fr | Si vous souhaitez faire un don, notre adresse paypal est : aaalex123@hotmail.fr<br/>

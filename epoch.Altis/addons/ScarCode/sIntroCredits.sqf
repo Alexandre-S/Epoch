@@ -18,6 +18,7 @@ _waitFor = 2; // Amount of seconds to wait before playing can see and move ingam
 _credits =
 [
 ["Welcome to",["Epoch Vault"]],
+["BEWARE | ATTENTION",["The server is restarting every two hours for now","Le serveur reboot toutes les deux heures pour le moment","We are waiting for Bohemia to fix there shit","On attend la prochaine mise à jour de Bohemia pour fixer les problèmes"]],
 ["Admins",["Youri Litovski","Benji","le serpent mexicain","Sentinel"]],
 ["Server Mod",["Ethan Hawx","Tom Mason"]],
 ["TeamSpeak",["92.222.168.218:9999"]],
