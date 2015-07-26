@@ -65,6 +65,7 @@ class CfgEpochClient
 				{ { 3085, 13184, 0 }, 300 }, //Kavalar Carstel
 				{ { 17439, 13165, 0 }, 165 }, //Pyrgorsk Military
 				{ { 20084, 6728, 0 }, 55 }, //West of Selakano
+				{ { 21088, 14750, 0 }, 600 }, //PVP zone
 				{ { 25303, 21807, 0 }, 100 } //Sofia	
 		};
 		Rocks[] = {
