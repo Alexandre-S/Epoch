@@ -21,7 +21,7 @@ _credits =
 ["BEWARE | ATTENTION",["The server is restarting every two hours for now","Le serveur reboot toutes les deux heures pour le moment","We are waiting for Bohemia to fix there shit","On attend la prochaine mise à jour de Bohemia pour fixer les problèmes"]],
 ["Admins",["Youri Litovski","Benji","le serpent mexicain","Sentinel"]],
 ["Server Mod",["Ethan Hawx","Tom Mason"]],
-["TeamSpeak",["92.222.168.218:9999"]],
+["TeamSpeak",["ts.epochvault.ovh"]],
 ["Rules",["No base camping","No bambi kill","No kill in trader city","No troll","No cheat","(open your map for full rules)"]],
 ["Server scripts",["Status Bar","SEM","Dayz Style Heli Crash","Ear Plug","High Vehicles Spawn","Much more"]],
 ["Our donators",["DeathTwizy","Mark Evans"]],
