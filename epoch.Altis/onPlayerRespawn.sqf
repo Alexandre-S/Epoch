@@ -3,6 +3,9 @@
 
 waitUntil {vehicle player == player};
 waituntil {!isnull (finddisplay 46)};
+waitUntil{alive vehicle player};
+waitUntil{typeOF player != "VirtualMan_EPOCH"};
+enableEnvironment true;
 
 //////////////////////////////////////////////////////////////////////////
 		_OPRbreathing = alive player;
