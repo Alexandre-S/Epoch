@@ -8,7 +8,7 @@ BuildingSlotsLimit = 3000; // Max building slots allowed. Warning! Higher the nu
 StaticDateTime[] = {2035,6,20,7,0}; // {0,0,0,8,0} would forces the server to start at 8am each time it is started while allowing the year, month and day to stay real time. Any values left at 0 will result in no change.
 timeDifference = 0; // Server uses real time this will allow you to offset just the hour.
 timeMultiplier = 4; // Sets a time multiplier for in-game time. The command range is now capped at 0.1 - 120 to avoid performance problems.
-lootMultiplier = 0.6; // 1 = max loot bias. This controls how much loot can payout per Epoch loot container.
+lootMultiplier = 0.8; // 1 = max loot bias. This controls how much loot can payout per Epoch loot container.
 // Events
 airDrops = false; // TBA
 WeatherChangeTime = 1200; // This controls how fast the weather changes as well as how fast shipping containers and earthquakes happen.
@@ -47,7 +47,6 @@ allowedVehiclesList[] = {
     {"C_Boat_Civil_01_police_EPOCH",7},
     {"C_Boat_Civil_01_rescue_EPOCH",7},
     {"B_Heli_Light_01_EPOCH",3},
-    {"C_Heli_Light_01_civil_F",3},
     {"B_MRAP_01_EPOCH",5},
     {"B_Truck_01_transport_EPOCH",3},
     {"B_Truck_01_covered_EPOCH",4},
@@ -74,13 +73,14 @@ allowedVehiclesList[] = {
     {"mosquito_epoch",4},
     {"I_MRAP_03_F",5},
     {"O_MRAP_02_F",5},
-    {"B_G_Offroad_01_armed_F",4}
+    {"B_G_Offroad_01_armed_F",4},
+	{"C_Heli_Light_01_civil_EPOCH",5}
 };
 
 // Traders
 taxRate = 0.1; // controls the price increase for purchases
 starterTraderItems[] = { { "ItemSodaBurst", "meatballs_epoch", "VehicleRepair", "CircuitParts", "ItemRock", "ItemRope", "ItemStick" }, { 5, 5, 5, 5, 5, 5, 5 } }; // Starter Items for fresh spawned trader first array is classnames second is quantity.
-NPCSlotsLimit = 50; // Max number of traders static or dynamic. Warning! Higher the number lower performance.
+NPCSlotsLimit = 20; // Max number of traders static or dynamic. Warning! Higher the number lower performance.
 forceStaticTraders = true; // disables traders moving from work to home
 
 // Markers

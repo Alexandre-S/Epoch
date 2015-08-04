@@ -8,6 +8,7 @@
 	76561197968614074 : Sentinel
 	76561198013920451 : Mark evans
 	76561198052059981 : DeathTwizy
+	76561198005731524 : Mickael Ulrich
 */
 private["_Armes","_Arme","_Armes2","_Arme2","_Munition","_Munition2","_Pareballes","_Pareballe","_Nourritures","_Boissons","_Nourriture","_Boisson","_Tenues","_Tenue","_SacsADos","_SacADos","_j","_i"];
 //_Armes2 = ["arifle_TRG21_F","arifle_TRG20_F","arifle_Mk20_F","arifle_Mk20C_F","arifle_Mk20_plain_F","arifle_Mk20C_plain_F","SMG_01_F","SMG_02_F"];
@@ -21,7 +22,7 @@ _SacsADos = ["smallbackpack_red_epoch","smallbackpack_green_epoch","smallbackpac
 if (EPOCH_playerCrypto == 10) exitwith { hint parseText format["Vous avez déjà récupéré votre matériel <br/> You already got your gear"];};
 if (getGearVIP) exitwith { hint parseText format["Vous avez déjà récupéré votre matériel <br/> You already got your gear"];};
 
-if (getPlayerUID player in ["76561198010101889","76561197968614074","76561198013920451","76561198052059981"]) then {
+if (getPlayerUID player in ["76561198010101889","76561197968614074","76561198013920451","76561198052059981","76561198005731524"]) then {
 	getGearVIP = true;
 	EPOCH_playerCrypto = 10;
 	

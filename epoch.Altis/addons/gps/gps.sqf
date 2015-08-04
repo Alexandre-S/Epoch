@@ -14,9 +14,7 @@ Feel free to use, edit, share etc. whatever You want with this script.
 #define updateInterval 1 	//Interval time in seconds on how fast the markers get updated
 
 mapMarkerLoop = compileFinal "
-	
 	while{alive player && ""ItemGPS"" in (items player + assignedItems player)}do{	private[""_start"",""_unit""];
-		
 		_start = diag_ticktime;		
 		{
 			if(name _x == name player)then{
@@ -54,7 +52,7 @@ createPlayerMarker = compileFinal "
 		case west :{""ColorBlue""};
 		case resistance :{""ColorGreen""};
 		case civilian :{""ColorWhite""};
-		default {""ColorBlack""};
+		default {""ColorWhite""};
 	});
 
 		
@@ -119,5 +117,7 @@ createGroupMarker = compileFinal "
 
 while{true}do{
 	waitUntil{sleep 1; alive player && "ItemGPS" in (items player + assignedItems player)};
-	updateInterval spawn mapMarkerLoop;
+	if(visibleMap) then {
+		updateInterval spawn mapMarkerLoop;
+	};
 };
